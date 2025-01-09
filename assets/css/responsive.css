@@ -1,0 +1,864 @@
+
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+br{
+    display: none;
+}
+
+.mainMenu li {
+    padding: 0px 3px;
+}
+
+.mainMenu li a {
+    font-size: 16px;
+}
+.owl-nav div img {
+    width: 40px;
+}
+.singleContactBox h4 {
+    font-size: 17px;
+}
+
+.singleContactBox p {
+    font-size: 18px;
+    max-width: 150px;
+}
+.sectionContentArea.library .schoolSingleSlide h4 {
+    font-size: 28px;
+}
+
+.sectionContentArea.library .schoolSingleSlide p {
+    font-size: 22px;
+}
+
+.schoolSingleSlide h4 {
+    font-size: 28px;
+}
+
+.schoolSingleSlide p {
+    font-size: 22px;
+}
+
+
+}
+
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    br{
+        display: none;
+    }
+    .mainMenu li {
+        padding: 0px 4px;
+    }
+    
+    .mainMenu li a {
+        font-size: 12px;
+    }
+    
+    .navigationBox {
+        grid-template-columns: 6fr 6fr;
+    }
+    
+    .sectionContentArea.onboarding .slideImgRound {
+        margin-top: 50px;
+    }
+
+    .sectionImgtxt .reverseMobile {
+        flex-direction: column-reverse;
+    }
+    .sectionContentArea.onboarding .owl-dots {
+        bottom: 0px;
+    }
+    
+    .onboardingSlideBottom p {
+        margin-top: 30px;
+        padding-bottom: 25px;
+    }
+    .sectionDevelopment .onboardingSlideTxt {
+        margin-top: 30px;
+    }
+
+    .schoolSingleSlide {
+        padding: 30px;
+        background-size: cover;
+        max-width: 443px;
+        margin: 0 auto;
+    }
+    .join .slideImgRound {
+        margin-top: 40px;
+    }
+
+    .contactBoxGrid {
+        grid-template-columns: 12fr;
+    }
+
+    .joinShape .shapeRight {
+        top: 0;
+        right: 0;
+    }
+    
+    .quantiryBtn {
+        bottom: 33px;
+    }
+    .schoolLink {
+        bottom: 0;
+    }
+
+    .navTitle {
+        margin-top: 10px;
+    }
+    
+    .singleNavigation {
+        padding: 20px 15px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+    
+    .navigationBox {
+        margin-top: 40px;
+    }
+    
+    .bannerArea {
+        padding-bottom: 40px;
+    }
+    .singleContactBox h4 {
+        font-size: 17px;
+    }
+    
+    .singleContactBox p {
+        font-size: 18px;
+        max-width: 150px;
+    }
+    .sectionContentArea.library .schoolSingleSlide h4 {
+        font-size: 28px;
+    }
+    
+    .sectionContentArea.library .schoolSingleSlide p {
+        font-size: 22px;
+    }
+    
+    .schoolSingleSlide h4 {
+        font-size: 28px;
+    }
+    
+    .schoolSingleSlide p {
+        font-size: 22px;
+    }
+
+    .owl-nav div.owl-next {
+        right: -13px;
+    }
+    
+    .owl-nav div {
+        left: -13px;
+    }
+    
+    .joinShape .shapeLeft {top: -226px;width: 35px;}
+    
+    .joinShape .shapeRight {
+        width: 90px;
+    }
+    
+    .librarySlideImgInner {
+        padding-right: 100px;
+    }
+    .onboardingShape .shapeLeft {
+        left: -15px;
+        width: 60px;
+        top: 0;
+    }
+}
+
+
+/* Tab Layout: 992px. */
+@media only screen and (max-width: 1050px) {
+    .slicknav_menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .slicknav_menu {
+        display: block;
+        background: none;
+        top: 30px;
+    }
+    
+    .logo {
+        width: 65%;
+        margin-top: 20px;
+    }
+    
+    .slicknav_menu .slicknav_nav {
+        background: #8dc540;
+        border-radius: 10px;
+    }
+    
+    a.slicknav_btn {
+        border: 2px solid #fbaf3f;
+        background: none;
+        padding: 12px 14px;
+        border-radius: 16px;
+    }
+  a.slicknav_btn.slicknav_open {
+        background: #fff5e3;
+    }
+
+
+    .slicknav_menu .slicknav_icon-bar {
+        background-color: #fbaf3f;
+        width: 27px;
+        height: 4px;
+        margin: 5px 0px;
+        border-radius: 50px;
+    }
+    .slicknav_menu .slicknav_icon {
+        height: auto;
+        width: 27px;
+    }
+    
+    .slicknav_nav a {
+        font-size: 22px;
+        padding: 10px 15px;
+        text-transform: uppercase;
+    }
+    .stickyNav.sticky {
+        display: none;
+    }
+    .slicknav_nav a {
+        color: #1c6fb8;
+        font-size: 28px;
+        font-weight: 700;
+        border-bottom: 1px solid #6b6b6b;
+        padding: 20px 0px;
+    }
+    .slicknav_nav a:hover {
+        background: none;
+        color: #8dc540;
+    }
+    .slicknav_menu .slicknav_nav {
+        background: transparent;
+        border-radius: 0px;
+        position: relative;
+        z-index: 1;
+        overflow: visible;
+        transition: .0s;
+        padding-top: 40px;
+    }
+    
+    .slicknav_menu .slicknav_nav:after {
+        position: absolute;
+        left: 0;
+        top: -87px;
+        height: 450px;
+        width: 100%;
+        content: "";
+        background: #fff;
+        z-index: -1;
+    }
+    
+    a.slicknav_btn {
+        z-index: 2;
+    }
+    
+    .logo img {z-index: 3;}
+    
+    .slicknav_nav li:last-child a {
+        border: none;
+    }
+    .bannerImg {
+        padding-top: 130px;
+    }
+    .guideYouImg {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    div#onboarding .owl-nav div {
+        top: 16%;
+    }
+    
+    .owl-nav div img {
+        width: 40px;
+    }
+    .sectionContentArea.join {
+        padding-bottom: 50px;
+    }
+    .schoolShape img.shapeLeft {
+        width: 100px;
+        top: 40px;
+    }
+
+    .contactBoxGrid {
+        padding-bottom: 30px;
+        margin: 0 auto;
+        grid-template-columns: 6fr 6fr;
+    }
+    
+    .singleContactBox h4{
+        margin-right: 0px;
+    }
+    .onboardingSlide.owl-carousel {
+        padding-bottom: 50px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    .contactBoxGrid::-webkit-scrollbar-thumb {
+        background: #8ec340;
+      }
+
+      .contactBoxGrid {
+        max-width: 1000px;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        overflow-x: scroll;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    
+    ::-webkit-scrollbar:hover {
+        width: 12px;
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track,
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #e7e8e8;
+    }
+
+    .slicknav_menu .slicknav_nav {
+        padding-top: 20px;
+    }
+    
+
+    .slicknav_nav a {
+        font-size: 21px;
+    }
+    .slicknav_menu .slicknav_nav:after {
+        height: 410px;
+    }
+    br{
+        display: none;
+    }
+    
+    .reverseMobile {
+        flex-direction: column-reverse;
+    }
+    
+    .banner {
+        margin-top: 40px;
+    }
+    
+    .bannerTitle {
+        margin-top: 0;
+    }
+    
+    .navigationBox {
+        grid-template-columns: 12fr;
+    }
+    
+    .stickyNav {
+        display: none;
+    }
+    
+    .bannerArea.sticky .navigationBox {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .bannerArea {
+        padding-bottom: 40px;
+    }
+    
+    .sectionImgtxt {
+        padding-top: 50px;
+    }
+    
+    .onboardingShape .shapeLeft {
+        width: 15%;
+        left: -30px;
+        top: 0;
+    }
+    
+    .owl-nav div.owl-next {
+        right: -15px;
+    }
+    
+    .owl-nav div {
+        left: -15px;
+    }
+    
+    .owl-nav div img {
+        height: 30px;
+    }
+    
+    .onboardingSingleSlide .row {
+        flex-direction: column-reverse;
+    }
+    
+    .slideTitle {
+        margin-bottom: 0;
+    }
+    
+    .onboardingSlideTxt {
+        margin-top: 30px;
+    }
+    
+    .onboardingShape .shapeRight {
+        width: 20%;
+        bottom: 0;
+        display: none;
+    }
+    
+    .sectionDevelopment .onboardingSingleSlide .row {
+        flex-direction: row-reverse;
+    }
+    
+    .developmentShape .shapeRight {
+        width: 20%;
+        bottom: -45px;
+        right: -30px;
+    }
+    
+    .onboardingSlideBottom {
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .developmentShape .shapeLeftOut {
+        display: none;
+    }
+    
+    .schoolShape img.shapeLeft {
+        width: 20%;
+        left: -30px;
+        top: 0;
+    }
+    
+    .sectionDevelopment {
+        overflow: hidden;
+    }
+    
+    .sectionContentArea.school .slideTitle h3 {
+        margin-bottom: 30px;
+    }
+    
+    .schoolSingleSlide h4 {
+        font-size: 28px;
+    }
+    
+    .userView {
+        grid-template-columns: 3fr 9fr;
+        gap: 10px;
+    }
+    
+    .schoolSingleSlide h5 {
+        width: 75%;
+    }
+    
+    .schoolSingleSlide {
+        padding: 30px;
+    }
+    
+    .schoolSingleSlide p {
+        font-size: 18px;
+    }
+    
+    .schoolSingleSlide .userTxt h4 {
+        font-size: 28px;
+        margin: 0;
+    }
+    
+    .schoolSingleSlide .userTxt p {
+        line-height: 1.2;
+    }
+    
+    .sectionTitle h2 {
+        font-size: 28px;
+    }
+    
+    .joinShape .shapeLeft {
+        display: none;
+    }
+    
+    .join .slideImgRound {
+        margin-top: 0;
+    }
+    
+    .joinShape .shapeRight {
+        top: 150px;
+        right: -20px;
+    }
+    
+    .joinForm {
+        width: 100%;
+        max-width: 100%;
+        display: grid;
+        text-align: center;
+    }
+    
+    .joinInput {width: 100%;}
+    
+    .sectionContentArea.join {
+        padding-bottom: 50px;
+    }
+    
+    .sectionContentArea.library {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .sectionContentArea.library .schoolSingleSlide {
+        padding:30px;
+    }
+    
+    .sectionContentArea.library .schoolSingleSlide p {
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+    
+    .sliderLink {
+        right: 18px;
+        top: 58px;
+    }
+    
+    .sectionContentArea.library .owl-dots {
+        margin-top: 20px;
+    }
+    
+    .contactShape2 img {
+        display: none;
+    }
+    
+    .contactArea {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+    .contactArea .sectionTitle {
+        margin-bottom: 0;
+    }
+    
+    
+    .contactShape {
+        display: none;
+    }
+    
+    .singleContactBox {
+        background-size: cover;
+        padding: 33px 22px;
+        width: 300px;
+    }
+    
+    .quantiryBtn {
+        bottom: 3px;
+    }
+    
+    .contactForm {
+        margin-top: 20px;
+    }
+
+
+   
+    .footerNav li {
+        display: block;
+        padding: 8px 0px;
+    }
+    
+    .footerNav li a:after {
+        display: none;
+    }
+    
+    .privacyAndTerms.footerNav li {
+        display: inline-block;
+    }
+    
+    .privacyAndTerms.footerNav li a:after {
+        display: block;
+    }
+
+    
+    .sectionContentArea.library .schoolSingleSlide h4 {
+        padding-bottom: 15px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .sectionContentArea.library .schoolSingleSlide p {
+        font-size: 18px;
+    }
+    .contactForm {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    body {
+        font-size: 18px;
+    }
+
+    .formBtn .navBtn {
+        font-size: 30px;
+        font-weight: 700;
+        width: 100%;
+        display: block;
+        max-width: 300px;
+    }
+    
+    .joinForm {
+        display: block;
+    }
+    .sectionContentArea.join .onboardingSlideTxt {
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .sectionContentArea.join p {
+        margin-bottom: 10px;
+    }
+
+    .schoolSingleSlide:before {
+        border-top-left-radius: 200px;
+    }
+    
+    .schoolSingleSlide h4 {
+        margin-bottom: 10px;
+    }
+    
+    .userView {
+        max-width: 240px;
+    }
+    
+    .schoolSingleSlide .userTxt h4 {
+        font-size: 24px;
+    }
+    
+    .schoolSingleSlide h5 {
+        width: 100%;
+        max-width: 186px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .sectionContentArea.school {
+        padding-top: 50px;
+    }
+    
+    .developmentShape .shapeRight {
+        bottom: -80px;
+        right: -15px;
+    }
+    .onboardingSlideBottom .navBtn {
+        width: 95%;
+        font-size: 24px;
+        padding: 10px 30px;
+    }
+    
+    .sectionDevelopment {
+        padding-bottom: 60px;
+        padding-top: 50px;
+        border-radius: 0px;
+    }
+
+    .sectionDevelopment .onboardingSlideTxt p {
+        margin-top: 15px;
+    }
+    
+    .sectionDevelopment .onboardingSlideTxt {
+        padding: 30px;
+    }
+    
+    div#development .onboardingSlideTxt h4 {
+        font-size: 28px;
+    }
+    .developmentShape .shapeTop {
+        width: 150px;
+    }
+    .onboardingSlideTxt h4 {
+        font-size: 28px;
+    }
+    
+    .onboardingSlideTxt {
+        padding: 30px;
+    }
+    
+    .slideTitle h3 {
+        font-size: 28px;
+    }
+
+    .sectionContentArea.onboarding .owl-dots {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0 !important;
+    }
+    
+    .onboardingSlideBottom p {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .sectionContentArea.onboarding {
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+
+    .person {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    img.boyLeft {
+        left: 35px;
+        height: 100px;
+    }
+    
+    .sectionImgtxt .content h1 {
+        font-size: 28px;
+    }
+    
+    .bannerImg {
+        padding-top: 0;
+    }
+
+
+    .navIcon img {
+        height: 64px;
+    }
+    
+    .navTitle img {
+        height: 70px;
+    }
+    
+    .navTitle {
+        height: auto;
+        margin-top: 15px;
+    }
+    
+    .singleNavigation a {
+        font-size: 17px;
+        padding: 3px 40px;
+        margin-top: 10px;
+    }
+
+    .footerNav li a {
+        padding: 0px;
+    }
+    
+    .footerNav li {
+        padding: 2px 0px;
+    }
+    
+    .footerNav h4 {
+        padding-bottom: 0;
+        margin-bottom: 8px;
+    }
+    
+    .footerNav {
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+    
+    .footer {
+        padding-top: 30px;
+    }
+
+    .onboardingSlide {
+        padding-bottom: 50px;
+    }
+
+    .logo a.logoLink {
+        /* display: grid; */
+        grid-template-columns: 4fr 10fr;
+        gap: 20px;
+    }
+    
+    .logo a.logoLink img {
+        height: 60px;
+    }
+    .slicknav_menu {
+        top: 12px;
+    }
+    .logo {
+        width: auto;
+    }
+    .contactForm input {
+        height: auto !important;
+        padding: 10px 20px !important;
+    }
+
+    .mktoLogicalField.mktoCheckboxList input {
+        width: 30px !important;
+        transform: scale(1.5);
+        margin-top: 6px;
+        margin-right: 10px;
+        height: 18px !important;
+    }
+    .schoolSlide .owl-nav div {
+        top: 43%;
+    }
+    .mktoLogicalField.mktoCheckboxList label {
+        margin-left: 50px !important;
+    }
+ }   
+    
+ 
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 550px) {
+ 
+.sectionLogo {
+    max-width: 340px;
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+    gap: 20px;
+}
+
+.sectionLogo img.title1 {height: auto;}
+.sectionLogo img.title2 {
+    height: auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
