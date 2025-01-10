@@ -314,7 +314,9 @@ br{
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
-
+    .onboardingSlide.owl-carousel {
+        padding-bottom: 30px;
+    }
     .contactBoxGrid::-webkit-scrollbar-thumb {
         background: #8ec340;
       }
