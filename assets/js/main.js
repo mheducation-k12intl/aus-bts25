@@ -2,7 +2,7 @@
 	"use strict";
 
     jQuery(document).ready(function($){
-        
+        /*=update-2.0=*/
           
     	/*====  slider ative =====*/
         if ($.fn.owlCarousel) {
