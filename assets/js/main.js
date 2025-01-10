@@ -16,7 +16,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
+                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-right.svg'>"],
             });
         }
 
@@ -32,7 +32,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
+                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-right.svg'>"],
 
                 responsiveClass: true,
                 responsive: {
@@ -65,7 +65,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
+                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-right.svg'>"],
 
                 responsiveClass: true,
                 responsive: {
