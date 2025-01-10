@@ -101,7 +101,7 @@
 
 
         
-        $('a[href^="#tabArea"], a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#library"]').on('click',function (e) {
+        $('a[href^="#contact-forms"], a[href^="#tabArea"], a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#library"]').on('click',function (e) {
           e.preventDefault();
           var target = this.hash;
           var $target = $(target);
