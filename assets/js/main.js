@@ -2,7 +2,7 @@
 	"use strict";
 
     jQuery(document).ready(function($){
-        /*=update-2.0=*/
+        
           
     	/*====  slider ative =====*/
         if ($.fn.owlCarousel) {
@@ -16,7 +16,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/assets/images/arrow-right.svg'>"],
+                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
             });
         }
 
@@ -32,7 +32,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-right.svg'>"],
+                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
 
                 responsiveClass: true,
                 responsive: {
@@ -65,7 +65,7 @@
                 // animateOut: 'fadeOut',
                 // autoplayTimeout: 12000,
                 smartSpeed: 900,
-                navText: ["<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-left.svg'>", "<img src='https://mheducation-k12intl.github.io/aus-bts25/assets/images/arrow-right.svg'>"],
+                navText: ["<img src='./assets/images/arrow-left.svg'>", "<img src='./assets/images/arrow-right.svg'>"],
 
                 responsiveClass: true,
                 responsive: {
@@ -94,6 +94,25 @@
             })
         }
 
+        $('.clickme').click(function () {
+            $('.nav .nav-link').removeClass('active');
+            $('.nav .nav3').addClass('active');
+        });
+
+
+        
+        $('a[href^="#tabArea"], a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#library"]').on('click',function (e) {
+          e.preventDefault();
+          var target = this.hash;
+          var $target = $(target);
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top -120
+          }, 900, 'swing', function () {
+              // window.location.hash = target;
+          });
+      });
+
+      
 
 
 
