@@ -95,10 +95,40 @@
         }
 
         $('.clickme').click(function () {
+			$('html, body').animate({
+              scrollTop: $("#tabArea").offset().top -120
+          	}, 700);
+			
+            $('.nav .nav-link').removeClass('active');
+            $('.nav .nav1').addClass('active');
+        });
+
+		$('.clickme2').click(function () {
+			$('html, body').animate({
+              scrollTop: $("#tabArea").offset().top -120
+          	}, 700);
+			
+            $('.nav .nav-link').removeClass('active');
+            $('.nav .nav2').addClass('active');
+        });
+
+		$('.clickme3').click(function () {
+			$('html, body').animate({
+              scrollTop: $("#tabArea").offset().top -120
+          	}, 700);
+			
             $('.nav .nav-link').removeClass('active');
             $('.nav .nav3').addClass('active');
         });
 
+		$('.clickme4').click(function () {
+			$('html, body').animate({
+              scrollTop: $("#tabArea").offset().top -120
+          	}, 700);
+			
+            $('.nav .nav-link').removeClass('active');
+            $('.nav .nav4').addClass('active');
+        });
 
         
         $('a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#library"]').on('click',function (e) {
