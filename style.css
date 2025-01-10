@@ -308,6 +308,9 @@ img.shapeLeft, img.shapeRight {
 
 div#onboarding .owl-dots {
     padding-bottom: 30px;
+    position: relative !important;
+    bottom: 0;
+    margin-top: 40px
 }
 
 .sectionDevelopment {
@@ -1140,4 +1143,12 @@ img.boyRight {
 }
 .mktoFormRow .mktoOffset {
     display: none;
+}
+
+div#tabArea {
+    scroll-margin-top: calc(150px + 0px);
+}
+
+.contactForm form {
+    font-family: 'Proxima Nova Lt' !important;
 }
