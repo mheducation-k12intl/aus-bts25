@@ -131,7 +131,7 @@
         });
 
         
-        $('a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#library"]').on('click',function (e) {
+        $('a[href^="#onboarding"], a[href^="#development"], a[href^="#school"], a[href^="#clinic"], a[href^="#library"]').on('click',function (e) {
           e.preventDefault();
           var target = this.hash;
           var $target = $(target);
@@ -153,4 +153,4 @@
     });
 
 
-}(jQuery));	
+}(jQuery));
