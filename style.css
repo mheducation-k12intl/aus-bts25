@@ -1075,6 +1075,7 @@ img.boyRight {
 .footerNav h4 {
     color: #fff;
     padding-bottom: 10px;
+	font-size: 16px
 }
 
 .footerNav li a:after {
