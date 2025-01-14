@@ -433,6 +433,10 @@ div#onboarding .owl-dots {
     z-index: 5;
 }
 
+.userTxt {
+    z-index: 5;
+}
+
 .schoolSingleSlide .userTxt p {
     border: none;
     padding: 0;
