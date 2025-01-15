@@ -482,6 +482,7 @@ div#onboarding .owl-dots {
 }
 
 .sectionTitle h2 {
+	text-align: center;
     color: #1c6fb8;
     font-size: 42px;
 }
