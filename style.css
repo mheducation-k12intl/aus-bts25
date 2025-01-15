@@ -176,6 +176,10 @@ p{
     text-align: left;
 }
 
+.sectionTitle ul {
+	list-style: inside;
+}
+
 .sectionContentArea {
     padding: 90px 0px;
     overflow: hidden;
