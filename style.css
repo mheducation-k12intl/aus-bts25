@@ -173,7 +173,7 @@ p{
 }
 
 .sectionTitle {
-    text-align: center;
+    text-align: left;
 }
 
 .sectionContentArea {
@@ -592,6 +592,12 @@ div#onboarding .owl-dots {
     width: auto;
 }
 
+.schoolSlideTxt{
+	position: relative;
+	min-height: 250px;
+	z-index: 5;
+}
+
 .librarySlideImg {
     position: relative;
 }
@@ -791,6 +797,7 @@ span.linkBar {
 }
 
 .footerNav {
+	font-size: 14px;
     border-bottom: 1px solid #999;
     padding-bottom: 25px;
     margin-bottom: 25px;
@@ -804,7 +811,7 @@ span.linkBar {
 
 .copyright {
     color: #9a9a9a;
-    font-size: 21px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -980,6 +987,7 @@ img.boyRight {
 }
     
 .formWrap {
+	text-align: center;
     max-width: 700px;
     margin: 0 auto;
 }
